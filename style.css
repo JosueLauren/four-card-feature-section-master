@@ -107,14 +107,39 @@ body {
     box-shadow: 0 4px 8px 0 var(--Grayish-Blue);
 }
 
-
-
-
-
 .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 800px) {
+    .cabeçalho {
+        width: 90%;
+    }
+
+    .cartões {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cartões-2-3 {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cartão-2 {
+        margin-bottom: 40px;
+    }
+
+
+
+    .cartão-1, .cartão-4, .cartão-2, .cartão-3 {
+        width: 70%;
+        height: 200px;
+    }
 }
